@@ -1,0 +1,15 @@
+.photoDisplay{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pagination{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photoContent{
+    margin:5%;
+}

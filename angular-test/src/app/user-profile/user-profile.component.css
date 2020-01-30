@@ -1,0 +1,20 @@
+.userProfile>li:nth-child(even){
+    background: #00000029;
+}
+    
+.userProfile>li:nth-child(odd){
+    background: #0000000f;
+}
+
+.userProfile {
+    list-style: none;
+    line-height: 3;
+    padding-inline-start:0;
+}
+.contentProfile{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;    
+    text-align: left;
+    line-height: 2;
+}

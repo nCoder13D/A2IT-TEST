@@ -1,0 +1,13 @@
+<h1 style="text-align: center;">{{user.name}}</h1>
+<div class="contentProfile">
+    <ul class="userProfile"> 
+        <li><b>ID:</b> {{user.id}}</li>
+        <li><b>Username: </b>{{user.username}}</li>
+        <li><b>Email: </b>{{user.email}}</li>
+        <li><b>Website: </b>{{user.website}}</li>
+        <li><b>Company: </b>{{user.company.name}}</li>
+        <ul style="list-style: none;">
+            <li><b>Catch Phrase: </b>{{user.company.catchPhrase}}</li>
+        </ul>
+    </ul>
+</div>

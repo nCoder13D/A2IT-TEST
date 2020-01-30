@@ -1,0 +1,11 @@
+<div class="photoContent">
+    <div class="photoDisplay">
+        <div *ngFor="let pic of pics |  paginate: { itemsPerPage: 10, currentPage: p}">
+            <img src="{{pic.thumbnailUrl}}">
+        </div>
+        
+    </div>
+    <div class="pagination">
+        <pagination-controls class="my-pagination" (pageChange)="p = $event" autoHide=true></pagination-controls>
+    </div>
+</div>
